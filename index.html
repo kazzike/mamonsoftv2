@@ -29,10 +29,19 @@
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+    <!--[if lt IE 9]>!-->
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+      <!--<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>-->
     <![endif]-->
+
+    <!--paralax--!-->
+
+    <link rel='stylesheet' type="text/css" href="css/scroller.css"/>
+    <link rel='stylesheet' type="text/css" href="css/dzsparallaxer.css"/>
+    <!--<link rel='stylesheet' type="text/css" href="style/style.css"/><!-->
 </head>
 
 <body>
@@ -148,6 +157,19 @@
   </div>
 </div><!-- service area end   -->
 
+<div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
+
+    <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(img/imgbig1.jpg)">
+    </div>
+    <div class="big-text center-it">
+        "This is separator 2triangles"
+        <br><span class="smaller color-highlight">John Doe</span>
+    </div>
+
+    <div class="dzsprxseparator--2triangles"></div>
+</div>
+
+
 <div class="work_area">
   <div class="container">
     <div class="row">  
@@ -202,6 +224,18 @@
     </div>
   </div>
 </div><!--  getit area end -->
+
+<div class="dzsparallaxer auto-init" data-options='{   direction: "reverse"}' style="height: 350px;">
+
+    <div class="divimage dzsparallaxer--target " style="width: 101%; height: 600px; background-image: url(img/imgbig2.jpg)">
+    </div>
+    <div class="big-text center-it">
+        "This is separator 2triangles"
+        <br><span class="smaller color-highlight">John Doe</span>
+    </div>
+
+    <div class="dzsprxseparator--2triangles"></div>
+</div>
 
 
 <div class="portfolio_area">
@@ -907,5 +941,25 @@
 
    <script src="js/scrollupto.js"></script>
    <script type="text/javascript" src="js/main.js"></script>
+
+
+
+<script>
+    jQuery(document).ready(function($){
+        window.dzsscr_init($('.mwrap-wrapper'),{
+            'type':'scrollTop'
+            ,'settings_skin':'skin_apple'
+            ,enable_easing: 'on'
+            ,settings_autoresizescrollbar: 'on'
+            ,settings_chrome_multiplier : 0.04
+        })
+    });
+
+</script>
+
+<script src="advancedscroller/plugin.js" type="text/javascript"></script>
+<script src="dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>
+<script src="dzsscroller/scroller.js" type="text/javascript"></script>
+
 </body>
 </html>
