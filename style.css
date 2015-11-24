@@ -229,13 +229,13 @@ Image credits: unsplash.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(img/photo-01.jpg); 
+  background-image: url(img/slider1.jpg); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(img/photo-02.jpg);
+  background-image: url(img/slider2.jpg);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(img/photo-03.jpg);
+  background-image: url(img/slider3.jpg);
 }
 
 /********************************/
