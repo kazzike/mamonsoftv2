@@ -167,7 +167,7 @@ Image credits: unsplash.com
 }
 
 .hero h1 span{
-  color: #3498db;
+  color: #51871C;
 }
 
 .hero h3{
@@ -211,8 +211,8 @@ Image credits: unsplash.com
 .btn.btn-hero:hover,
 .btn.btn-hero:focus {
     color: #f5f5f5;
-    background-color: #3498db;
-    border-color: #3498db;
+    background-color: #51871C;
+    border-color: #51871C;
     outline: none;
     margin: 20px auto;
 }
@@ -302,7 +302,7 @@ Image credits: unsplash.com
   padding-top: 17px;    
   width: 50px;
   font-size: 25px;
-  color: #3498db;
+  color: #51871C;
   text-transform: uppercase;
   float: left;
   display: block;
@@ -492,7 +492,7 @@ scroll {  0% {
   -o-transform: rotate(45deg);
   transform: rotate(45deg);
   font-size: 30px;
-  color: #f32b1a;
+  color: #F47D25;
   line-height: 76px;
   background: rgba(195, 185, 185, 0.21);
   width: 80px;
@@ -504,7 +504,7 @@ scroll {  0% {
 
   .single_service:hover .ico{
   color:#F3F1F1;
-  background: #f32b1a;  
+  background: #F47D25;  
   cursor:pointer;
   -webkit-transition:  ease-out .5s;
   -moz-transition:  ease-out .5s;
@@ -514,7 +514,7 @@ scroll {  0% {
 
   .single_service .ico:hover{
   color:#F3F1F1;
-  background: #f32b1a;  
+  background: #F47D25;  
   cursor:pointer;
   -webkit-transition:  ease-out .5s;
   -moz-transition:  ease-out .5s;
@@ -549,7 +549,7 @@ scroll {  0% {
 }
 
 .work_section h1 span{
-  color: #3498db;
+  color: #51871C;
 }
 
 .bs-example{
@@ -608,7 +608,7 @@ scroll {  0% {
 
 
 .getit_area{
-  background: #3498db;
+  background: #51871C;
 }
 
 .getit_area h1{
@@ -636,7 +636,7 @@ scroll {  0% {
 }
 
 .portfolio_section h1{
-  color: #3498db;
+  color: #51871C;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -824,7 +824,7 @@ scroll {  0% {
 }
 
 .skill_section h2 span{
-  color: #3498db;
+  color: #51871C;
 }
 
 .progress .progress-bar.six-sec-ease-in-out {
@@ -856,7 +856,7 @@ scroll {  0% {
 }
 
 .blog_section h1 span{
-  color: #3498db;
+  color: #51871C;
 }
 
 .single_blog {
@@ -916,7 +916,7 @@ color: #282a2e;
 
 
 .slider-content:hover .slider-text {
-  background:#3498db;
+  background:#51871C;
 }
 
 .slider-content:hover  .slider-text p{
@@ -961,7 +961,7 @@ color: #282a2e;
 
 
 .price_section h1{
-  color: #3498db;
+  color: #51871C;
   margin-top: 55px;
   text-transform: uppercase;
   font-weight: 600;
@@ -975,7 +975,7 @@ color: #282a2e;
 .pricing-box ul { padding: 0; margin: 0; list-style: none; position: relative;cursor:pointer;border: solid 1px #ddd; z-index: 1;}
 
 .pricing-box ul:hover .subscription-price{
-  background: #f32b1a;
+  background: #F47D25;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
@@ -1000,19 +1000,19 @@ line-height: 45px !important;}
 
 .pricing-box.featured {}
 .pricing-box.featured li.plan-title { line-height: 61px;}
-.pricing-box.featured ul {border: solid 2px #f32b1a; z-index: 2; box-shadow: 0px 0px 15px 5px rgba(0,0,0,.11);}
+.pricing-box.featured ul {border: solid 2px #F47D25; z-index: 2; box-shadow: 0px 0px 15px 5px rgba(0,0,0,.11);}
 
 .last { padding-bottom: 20px;}
 
 .pricing-box.featured ul li { line-height: 45px;}
 
-.pricing-box.featured li.subscription-price { background: #f32b1a; }
+.pricing-box.featured li.subscription-price { background: #F47D25; }
 .pricing-box.featured li.subscription-price .price { line-height: 130px; font-size: 85px;}
 .pricing-box.featured li.subscription-price .currency { top: 25px; margin-left: -80px;}
 .sing-up{
   border-bottom: none;
 }
-.pricing-box.featured li.sing-up a { background: #f32b1a; color: #fff; border: solid 1px #f32b1a;}
+.pricing-box.featured li.sing-up a { background: #F47D25; color: #fff; border: solid 1px #F47D25;}
 .pricing-box.featured li.sing-up a:hover { background: #CE2112; border: solid 1px #CE2112; color: #fff;}
 
 
@@ -1033,7 +1033,7 @@ line-height: 45px !important;}
 
 
 .testimonial_section h1 span{
-  color: #3498db;
+  color: #51871C;
 }
 
 
@@ -1049,7 +1049,7 @@ line-height: 45px !important;}
 }
 
 .contact_section h1{
-  color: #3498db;
+  color: #51871C;
   text-transform: uppercase;
   font-weight: 600;
 }
